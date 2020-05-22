@@ -1,0 +1,15 @@
+//transfomar features das versões mais recentes do ES6 em codigo da versão que
+// existe no navegador
+
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+    "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ],
+  "@babel/plugin-transform-async-to-generator"
+    ]
+}
